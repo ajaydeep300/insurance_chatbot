@@ -1,4 +1,6 @@
-mysql-connector-python
+Flask
 pandas
-groq
+snowflake-connector-python
 python-dotenv
+groq
+matplotlib
