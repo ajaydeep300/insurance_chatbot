@@ -4,3 +4,4 @@ snowflake-connector-python
 python-dotenv
 groq
 matplotlib
+gunicorn
