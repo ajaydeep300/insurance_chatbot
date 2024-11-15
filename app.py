@@ -176,6 +176,9 @@ def create_chart():
     else:
         return jsonify({"error": "Invalid chart type or no data provided"}), 400
 
+@app.route('/')
+def home():
+    return "Welcome to the Insurance Chatbot API! The available endpoints are /query and /create_chart."
 
 
 
